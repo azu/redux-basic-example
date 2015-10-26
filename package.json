@@ -1,0 +1,37 @@
+{
+  "name": "redux-basic-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/redux-basic-example.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/redux-basic-example",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/redux-basic-example/issues"
+  },
+  "version": "1.0.0",
+  "description": "Redux",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "build": "browserify -D -t babelify src/index.js -o build/bundle.js",
+    "watch": "watchify -D -t babelify src/index.js -o build/bundle.js"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babelify": "^6.4.0",
+    "browserify": "^11.2.0",
+    "object.assign": "^4.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "rollup": "^0.20.0",
+    "rollup-plugin-babel": "^1.0.0",
+    "rollup-plugin-commonjs": "^1.0.0",
+    "rollup-plugin-npm": "^1.0.0",
+    "watchify": "^3.5.0"
+  }
+}
